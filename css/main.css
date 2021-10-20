@@ -347,3 +347,9 @@ body {
 .rocket i {
     rotate: -45deg;
 }
+
+
+/* footer */
+.first-section li:not(:first-of-type){
+    margin-top: -10px;
+}
