@@ -1,5 +1,12 @@
 $(() => {
 
+    // hide spinner icon
+    setTimeout(() => {
+        $('body').css({
+            "overflow": "visible"
+        }).find('.spinner').fadeOut(700);
+    }, 700);
+
     $(window).on('scroll', function () {
         let $s_stats = $('.section-stats')
         if ($("html,body").scrollTop() > 1800 && !$s_stats.hasClass('finished')) {
