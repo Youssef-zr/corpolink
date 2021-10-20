@@ -126,9 +126,10 @@
     border-color: var(--green) !important;
 }
 
-.border-bottom{
+.border-bottom, .border-top {
     border-color: #666 !important
 }
+
 /* -------------------- Other style ----------------- */
 
 img {
@@ -152,6 +153,6 @@ p {
     border-radius: 50%;
 }
 
-.title{
+.title {
     line-height: 1.3;
 }
