@@ -7,6 +7,31 @@ $(() => {
         }).find('.spinner').fadeOut(700);
     }, 700);
 
+    // tooltip function
+    $('[data-toggle="tooltip"]').tooltip();
+
+    // check scroll offset
+    function checkScroll() {
+        if ($(window).scrollTop() > 600) {
+            $('.scroll-top').fadeIn(500)
+        } else {
+            $('.scroll-top').fadeOut(500)
+        }
+    }
+
+    checkScroll();
+
+    $(window).on('scroll', function () {
+        checkScroll();
+    });
+
+    // scroll top btn
+    $('.rocket').on('click', function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 500)
+    })
+
     $(window).on('scroll', function () {
         let $s_stats = $('.section-stats')
         if ($("html,body").scrollTop() > 1800 && !$s_stats.hasClass('finished')) {

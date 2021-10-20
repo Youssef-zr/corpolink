@@ -171,13 +171,14 @@ body {
 }
 
 /* spinner */
-.spinner{
+
+.spinner {
     position: fixed;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background:var(--main-color);
+    background: var(--main-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -313,4 +314,21 @@ body {
     50% {
         transform: scale(0.5);
     }
+}
+
+/* scroll to top */
+.scroll-top{
+    display:none
+}
+
+.rocket {
+    position: fixed;
+    right: 20px;
+    bottom: 35px;
+    z-index: 9;
+    cursor: pointer;
+}
+
+.rocket i {
+    rotate: -45deg;
 }
