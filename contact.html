@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CorpoLink</title>
+    <!-- bootswatch -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@4.5.2/dist/cyborg/bootstrap.min.css">
+    <!-- cairo font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;900&display=swap" rel="stylesheet">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- globale style -->
+    <link rel="stylesheet" href="css/globale-style.css">
+
+    <!-- border effects style -->
+    <link rel="stylesheet" href="/css/border-effects.css">
+    <!-- main style -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <!-- start navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-main py-3 fixed-top border-bottom">
+        <div class="container">
+            <a class="navbar-brand font-26" href="index.html"><i class="fa fa-newspaper-o text-success"></i> Corpo<span
+                    class="text-success">Link</span> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02"
+                aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarColor02">
+                <ul class="navbar-nav me-auto font-17">
+                    <li class="nav-item">
+                        <a class="nav-link " href="index.html">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="d-flex ml-auto">
+                    <input class="form-control me-sm-2 mr-2" type="text" placeholder="Search">
+                    <button class="btn bg-green my-2 my-sm-0" type="submit">
+                        <i class="fa fa-search font-18"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- end navigation bar -->
+
+    <!-- start section header -->
+    <section class="section section-header-about mb-4">
+        <div class="container">
+            <div class="_left float-left">
+                <h1 class="font-36">Contact Us</h1>
+            </div>
+            <div class="right float-right">
+                <div class="links mt-2 font-20">
+                    <a href="index.html" class="home_page text-green">Home <i
+                            class="fa fa-arrow-right font-18 ml-1 mr-2 text-white"></i></a>
+                    <span class="">Contact us</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section header -->
+
+    <!-- start section information -->
+    <section class="section section-contact bg-main pb-5">
+        <div class="container">
+            <div class="contact-title mb-5">
+                <h3 class="title font-30 text-center"><b>Get in touch with us</b></h3>
+            </div>
+            <!-- start row -->
+            <div class="row">
+                <!-- item -->
+                <div class="col-md-4">
+                    <div class="info-item text-center bg-secand p-3 border b-radius">
+                        <div class="info-icon mb-2 mt-3">
+                            <img src="/images/contact/office.png" alt="office">
+                        </div>
+                        <div class="contact-title">
+                            <h4>Adress</h4>
+                        </div>
+                        <p class="paragraph font-18">
+                            #Irfan 1 ,Boukhalef-Tangier <br>Morocco
+                        </p>
+                    </div>
+                </div>
+                <!-- item -->
+                <div class="col-md-4">
+                    <div class="info-item text-center bg-secand p-3 border b-radius">
+                        <div class="info-icon mb-2 mt-3">
+                            <img src="/images/contact/support.png" alt="support">
+                        </div>
+                        <div class="contact-title">
+                            <h4>Phone</h4>
+                        </div>
+                        <p class="paragraph font-18">
+                            <span>+212762927783</span><br>
+                            <span>+212762927783</span>
+                        </p>
+                    </div>
+                </div>
+                <!-- item -->
+                <div class="col-md-4">
+                    <div class="info-item text-center bg-secand p-3 border b-radius">
+                        <div class="info-icon mb-2 mt-3">
+                            <img src="/images/contact/envelope.png" alt="office">
+                        </div>
+                        <div class="contact-title">
+                            <h4>Mail</h4>
+                        </div>
+                        <p class="paragraph font-18">
+                            <a href="mailto:yn-neinaa@hotmail.com" class="text-default">yn-neinaa@hotmail.com</a><br>
+                            <a href="mailto:yn-neinaa@hotmail.com" class="text-default">yn-neinaa@hotmail.com</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section information -->
+
+    <!-- start section map-form -->
+    <section class="section section-map-form bg-main">
+        <div class="container">
+            <div class="row">
+                <!-- start form field -->
+                <div class="col-md-6">
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name <span class="text-danger">*</span></label>
+                            <input type="text" name="name" id="name" class="form-control" required="required"
+                                placeholder="Enter You Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email <span class="text-danger">*</span></label>
+                            <input type="text" name="email" id="email" class="form-control" required="required"
+                                placeholder="Enter You Email Adress">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg" class="form-label">Message <span class="text-danger">*</span></label>
+                            <textarea name="msg" id="msg" cols="30" rows="10" class="form-control" required="required"
+                                placeholder="Enter You Message"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn bg-green font-18 mt-2"><i class="fa fa-send"></i>
+                                Send
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <!-- start map -->
+                <div class="col-md-6 pl-md-4 d-flex align-items-center">
+                    <div class="map">
+                        <img src="/images/map.png" alt="map" class="bg-main img-thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section map-form -->
+
+
+    <!-- start section footer -->
+    <footer class="section section-footer text-capitalize bg-main pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="first-section">
+                        <h4 class="title">Contact information</h4>
+                        <ul class="list-unstyled mt-3">
+                            <li class="d-flex align-items-center mb-0">
+                                <div class="icon text-white">
+                                    <i class="fa fa-map-marker fa-2x"></i>
+                                </div>
+                                <div class="adress">
+                                    <p class="font-16 mt-3 ml-3">Irfan 1 ,Boukhalef-Tangier ,Morocco</p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center mb-0">
+                                <div class="icon text-white">
+                                    <i class="fa fa-phone fa-2x"></i>
+                                </div>
+                                <div class="adress">
+                                    <p class="font-16 mt-3 ml-3">+212762927783</p>
+                                </div>
+                            </li>
+                            <li class="d-flex align-items-center mb-0">
+                                <div class="icon text-white">
+                                    <i class="fa fa-envelope font-20"></i>
+                                </div>
+                                <div class="adress">
+                                    <p class="font-16 mt-3 ml-3">
+                                        <a href="mailto:yn-neinaa@hotmail.com"
+                                            class="text-default">yn-neinaa@hotmail.com</a>
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-8">
+                    <div class="row">
+                        <!-- sub section footer -->
+                        <div class="col-md-4">
+                            <div class="footer-section">
+                                <h5 class="title">Company</h5>
+                                <ul class="list-unstyled mt-3">
+                                    <li class="mb-1">
+                                        <a href="about.html" class="font-18 text-default">
+                                            <p>
+                                                About company
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                Latest Blog Posts
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="services.html" class="font-18 text-default">
+                                            <p>
+                                                Our Services
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                Job Opportunities
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- sub section footer -->
+                        <div class="col-md-4">
+                            <div class="footer-section">
+                                <h5 class="title">Quick Links</h5>
+                                <ul class="list-unstyled mt-3">
+                                    <li class="mb-1">
+                                        <a href="contact.html" class="font-18 text-default">
+                                            <p>
+                                                Get in touch
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                Create account
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                Careers
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                Site Feedback
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- sub section footer -->
+                        <div class="col-md-4">
+                            <div class="footer-section">
+                                <h5 class="title">Categories</h5>
+                                <ul class="list-unstyled mt-3">
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                Creative tech
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                General info
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                Valuable Insights
+                                            </p>
+                                        </a>
+                                    </li>
+                                    <li class="mb-1">
+                                        <a href="index.html" class="font-18 text-default">
+                                            <p>
+                                                Our events
+                                            </p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end section footer -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

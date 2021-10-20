@@ -1,0 +1,154 @@
+:root {
+    --main-color: #1e1b32;
+    --secand-color: #26243c;
+    --green: #30c39e
+}
+
+/* backgrounds color */
+
+.bg-main {
+    background: var(--main-color);
+}
+
+.bg-secand {
+    background: var(--secand-color);
+}
+
+.bg-green {
+    background: var(--green);
+    color: white;
+}
+
+.bg-green:hover {
+    opacity: .9 !important;
+    color: #fff
+}
+
+/* colors style */
+
+.text-success {
+    color: var(--green) !important
+}
+
+.text-green {
+    color: var(--green) !important;
+}
+
+.text-default {
+    color: #ccc !important;
+}
+
+.text-black {
+    color: #000 !important
+}
+
+/* -------------- text style ----------- */
+
+/* font size */
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-15 {
+    font-size: 15px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-17 {
+    font-size: 17px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-36 {
+    font-size: 36px;
+}
+
+.font-45 {
+    font-size: 45px;
+}
+
+.font-50 {
+    font-size: 50px;
+}
+
+.text {
+    font-size: 16px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+/* text decoration style */
+
+.text-underline {
+    text-decoration: underline;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-lowercase {
+    text-transform: lowercase;
+}
+
+/* border style color */
+
+.b-color-success {
+    border-color: var(--green) !important;
+}
+
+/* -------------------- Other style ----------------- */
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.b-radius {
+    border-radius: 8px;
+}
+
+.progress-bar {
+    background-color: var(--green) !important;
+}
+
+.r-50 {
+    border-radius: 50%;
+}
+
+.title{
+    line-height: 1.3;
+}

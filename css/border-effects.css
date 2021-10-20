@@ -1,0 +1,66 @@
+.wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* width: 450px; */
+}
+
+.relative .box {
+    position: relative;
+    cursor: pointer;
+}
+
+.relative .orange:before {
+    background: linear-gradient(to right, #f85a40 0%, #f85a40 100%), linear-gradient(to top, #f85a40 50%, transparent 50%), linear-gradient(to top, #f85a40 50%, transparent 50%), linear-gradient(to right, #f85a40 0%, #f85a40 100%), linear-gradient(to left, #f85a40 0%, #f85a40 100%);
+}
+
+.relative .green:before {
+    background: linear-gradient(to right, #7ac142 0%, #7ac142 100%), linear-gradient(to top, #7ac142 50%, transparent 50%), linear-gradient(to top, #7ac142 50%, transparent 50%), linear-gradient(to right, #7ac142 0%, #7ac142 100%), linear-gradient(to left, #7ac142 0%, #7ac142 100%);
+}
+
+.relative .blue:before {
+    background: linear-gradient(to right, #3267e2 0%, #3267e2 100%), linear-gradient(to top, #3267e2 50%, transparent 50%), linear-gradient(to top, #3267e2 50%, transparent 50%), linear-gradient(to right, #3267e2 0%, #3267e2 100%), linear-gradient(to left, #3267e2 0%, #3267e2 100%);
+}
+
+.relative .magenta:before {
+    background: linear-gradient(to right, #fd4e80 0%, #fd4e80 100%), linear-gradient(to top, #fd4e80 50%, transparent 50%), linear-gradient(to top, #fd4e80 50%, transparent 50%), linear-gradient(to right, #fd4e80 0%, #fd4e80 100%), linear-gradient(to left, #fd4e80 0%, #fd4e80 100%);
+}
+
+.relative .yellow:before {
+    background: linear-gradient(to right, #fab034 0%, #fab034 100%), linear-gradient(to top, #fab034 50%, transparent 50%), linear-gradient(to top, #fab034 50%, transparent 50%), linear-gradient(to right, #fab034 0%, #fab034 100%), linear-gradient(to left, #fab034 0%, #fab034 100%);
+}
+
+.relative .purple:before {
+    background: linear-gradient(to right, #7d3e98 0%, #7d3e98 100%), linear-gradient(to top, #7d3e98 50%, transparent 50%), linear-gradient(to top, #7d3e98 50%, transparent 50%), linear-gradient(to right, #7d3e98 0%, #7d3e98 100%), linear-gradient(to left, #7d3e98 0%, #7d3e98 100%);
+}
+
+.relative .red:before {
+    background: linear-gradient(to right, #c5181e 0%, #c5181e 100%), linear-gradient(to top, #c5181e 50%, transparent 50%), linear-gradient(to top, #c5181e 50%, transparent 50%), linear-gradient(to right, #c5181e 0%, #c5181e 100%), linear-gradient(to left, #c5181e 0%, #c5181e 100%);
+}
+
+.relative .success:before {
+    background: linear-gradient(to right, #30c29d 0%, #30c29d 100%), linear-gradient(to top, #30c29d 50%, transparent 50%), linear-gradient(to top, #30c29d 50%, transparent 50%), linear-gradient(to right, #30c29d 0%, #30c29d 100%), linear-gradient(to left, #30c29d 0%, #30c29d 100%);
+}
+
+.relative .box:before {
+    content: '';
+    border-radius: 5px;
+    position: absolute;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    top: calc(2px/-1);
+    left: calc(2px/-1);
+    background-size: 100% 2px, 2px 200%, 2px 200%, 0% 2px, 0% 2px;
+    background-position: 50% 100%, 0% 0%, 100% 0%, 100% 0%, 0% 0%;
+    background-repeat: no-repeat, no-repeat;
+    transition: transform 0.3s ease-in-out, background-position 0.3s ease-in-out, background-size 0.3s ease-in-out;
+    transform: scaleX(0) rotate(0deg);
+    transition-delay: 0.6s, 0.3s, 0s;
+}
+
+.relative .box:hover:before {
+    background-size: 200% 2px, 2px 400%, 2px 400%, 55% 2px, 55% 2px;
+    background-position: 50% 100%, 0% 100%, 100% 100%, 100% 0%, 0% 0%;
+    transform: scaleX(1) rotate(0deg);
+    transition-delay: 0s, 0.3s, 0.6s;
+}
