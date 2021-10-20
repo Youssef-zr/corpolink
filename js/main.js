@@ -67,4 +67,8 @@ $(() => {
     })
 
 
+    // open navigation bar
+    $('.navbar-toggler').click(function () {
+        $('#navbarColor02').slideToggle(300);
+    })
 })
