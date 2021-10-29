@@ -373,7 +373,7 @@ body {
 }
 
 body.dark-mode {
-    background: #E8F5E9;
+    background: #ebfaf6;
 }
 
 .dark-mode .spinner {
@@ -517,19 +517,21 @@ body.dark-mode {
     background-color: #fff;
 }
 
+.dark-mode ._card ,
+.dark-mode .__card {
+    border: 1px solid #ddd
+}
+
 nav .dark-mode {
-    /* background: #000; */
     position: relative;
     right: 0;
     top: 0
 }
 
- @media (max-width:968px) {
+@media (max-width:968px) {
     nav .container {
-        padding-right: 60px !important ;
+        padding-right: 60px !important;
         position: relative;
-    }
-    nav {
     }
     nav .dark-mode {
         position: absolute;
