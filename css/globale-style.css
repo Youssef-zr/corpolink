@@ -24,6 +24,12 @@
     color: #fff
 }
 
+a.bg-green:hover,button.bg-green:hover {
+    background: transparent;
+    color: var(--green);
+    border-color: var(--green);
+}
+
 /* colors style */
 
 .text-success {
