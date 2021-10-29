@@ -373,7 +373,7 @@ body {
 }
 
 body.dark-mode {
-    background: #f7f7f7;
+    background: #dff9fb;
 }
 
 .dark-mode .spinner {
@@ -484,10 +484,11 @@ body.dark-mode {
     background: #fff;
 }
 
-.dark-mode .section-social .icon:hover{
+.dark-mode .section-social .icon:hover {
     border-color: var(--green) !important;
 }
-.dark-mode .section-social .icon:hover i{
+
+.dark-mode .section-social .icon:hover i {
     color: var(--green) !important;
 }
 
@@ -504,14 +505,60 @@ body.dark-mode {
     padding-right: 6px;
 }
 
-.dark-mode .border-top,
-.dark-mode .border-bottom{
+.dark-mode .border-top, .dark-mode .border-bottom {
     border-color: #ddd !important;
 }
-.dark-mode .section-services .service-item .relative{
+
+.dark-mode .section-services .service-item .relative {
     border-color: #eee;
 }
 
-.dark-mode .img-thumbnail{
+.dark-mode .img-thumbnail {
     background-color: #fff;
 }
+
+nav .dark-mode {
+    /* background: #000; */
+    position: relative;
+    right: 0;
+    top: 0
+}
+
+/* @media (min-width:968px) and (max-width:1200px) {
+    nav .container {
+        padding-right: 30px !important;
+    }
+    nav {
+        position: relative;
+    }
+    nav .dark-mode {
+        position: absolute;
+        top: 27px;
+        right: 30px
+    }
+}*/
+
+ @media (max-width:968px) {
+    nav .container {
+        padding-right: 60px !important ;
+        position: relative;
+    }
+    nav {
+    }
+    nav .dark-mode {
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+}
+/* @media (max-width:667px){
+    nav .container {
+        padding-right: 60px !important ;
+        background: #f89;
+    }
+    nav .dark-mode {
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+} */
