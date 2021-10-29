@@ -71,4 +71,29 @@ $(() => {
     $('.navbar-toggler').click(function () {
         $('#navbarColor02').slideToggle(300);
     })
+
+    // dark mode
+    $('.dark-mode span.light').click(function () {
+        // hide icon light
+        $('body').addClass('dark-mode');
+        $(this).hide();
+        $('.dark-mode  span.dark').show();
+
+        localStorage.setItem('dark-mode', "true");
+
+    })
+    // light mode
+    $('.dark-mode span.dark').click(function () {
+        $('body').removeClass('dark-mode');
+        $(this).hide();
+        $('.dark-mode span.light').show();
+        localStorage.removeItem('dark-mode');
+    });
+
+    if (localStorage.getItem('dark-mode') == 'true') {
+        $('body').addClass('dark-mode');
+        $('.dark-mode span.light').hide()
+        $('.dark-mode  span.dark').show();
+    }
+
 })
