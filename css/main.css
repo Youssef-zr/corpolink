@@ -476,7 +476,7 @@ body.dark-mode {
     color: #eee !important;
 }
 
-.dark-mode .icon i :not(.section-social .icon i) {
+.dark-mode .section-footer .icon i {
     color: var(--green) !important
 }
 
@@ -485,7 +485,6 @@ body.dark-mode {
 }
 
 .dark-mode .section-social .icon:hover{
-
     border-color: var(--green) !important;
 }
 .dark-mode .section-social .icon:hover i{
